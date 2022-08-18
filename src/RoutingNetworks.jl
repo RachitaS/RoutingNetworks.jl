@@ -21,11 +21,6 @@ export parallelShortestPaths!, traveltime, pathRoads
 export roadTypeRouting, randomTimeRouting, fixedSpeedTimes, maxSpeedTimes, uniformTimes, randomTimes
 export allPairTimes
 
-#visualization
-export NetworkVisualizer, NetworkViz, RoutingViz
-export visualize, visualInit, visualEvent, visualUpdate, visualRedraw, copyVisualData, redraw!
-export VizColors, RoutingColors, RoadTypeColors, FadedColors, SpeedColors, RelativeSpeedColors
-
 # projection onto network
 export NetworkProjector, NetworkPosition, NodeProjector, NodePosition, RoadProjector, RoadPosition
 export x, y, lat, lon, node, distToProj
@@ -51,11 +46,6 @@ include("routing/routingpaths.jl")
 include("routing/shortestpaths.jl")
 include("routing/tools.jl")
 include("routing/virtualtimes.jl")
-
-include("visualization/vizcolors.jl")
-include("visualization/visualize.jl")
-include("visualization/networkviz.jl")
-include("visualization/routingviz.jl")
 
 
 end
