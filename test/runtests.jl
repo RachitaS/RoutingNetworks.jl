@@ -1,6 +1,5 @@
 using RoutingNetworks
-using Test
+using Base.Test
 
-@testset "RoutingNetworks.jl" begin
-    # Write your tests here.
-end
+# write your own tests here
+n = squareNetwork(3)
